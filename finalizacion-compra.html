@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/9e946f340d57ab812172df17c5802dd9?family=CarmenSans-Heavy" rel="stylesheet">
+
+    <style type="text/css">
+        a,p,h1,h2,h3,h4,h5,h6{margin: 0; padding: 0;}
+        .text_dec_none{text-decoration: none;}
+        .font_11{font-size: 11px;}
+        .font_12{font-size: 12px;}
+        .font_13{font-size: 13px;}
+        .font_14{font-size: 14px;}
+        .font_title{font-size: 20px; font-weight: bold; padding: 0 0 5px 0;}
+        .font_sub_title{font-size: 17px; font-weight: 500; padding: 0 0 5px 0;}
+        .text_l{text-align: left;}
+        .text_c{text-align: center;}
+        .text_r{text-align: right;}
+        .font_family{font-family: "CarmenSans-Heavy";font-weight: 400;}
+        .font_family_arial{font-family : Arial;font-weight: 400;}
+        .c_scale_10{color: #767197;}
+        .c_scale{color: #635c95;}
+        .c_scale_hover{color: #494375;}
+        .c_blue{color: #0077ff;}
+        .c_blue_hover{color: #003f9b;}
+        .line_h{
+            width: 100%;
+            height: 2px;
+            background: #e9ecf6;
+        }
+        .padding_b{padding-bottom: 15px;}
+        .padding_b_30{padding-bottom:30px;}
+        .padding_t_30{padding-top: 30px;}
+        .padding_t{padding-top: 15px;}
+        #backgroundTable{
+            background: #eee;
+        }
+        #templateContainer{
+            background: #fff;
+            color: #454545;
+            font-family : Arial;
+        }
+        .bodyContent{
+            padding: 0 40px;
+        }
+        .bodyContent div h4,
+        .bodyContent div span,
+        .bodyContent div p{ 
+            font-family : Arial;
+        }
+        #titleItinerario h1{
+            font-size: 18px;
+            margin: 40px 0 0px 0;
+            font-family : Arial;
+        }
+        #nroPedido{
+            padding: 0px 40px;
+        }
+        #nroPedido div p{
+            margin: 0 0 20px 0;
+            font-size: 12px;
+            font-family : Arial;
+            color: #838383;
+        }
+        #infoItinerario, #infoCliente, #contentTableCovid{
+            padding: 20px 40px;
+        }
+        #infoCliente{
+            margin: 30px 0;
+        }
+        #infoItinerario div p, #infoCliente div p{
+            line-height: normal;
+            font-family : Arial;
+            color: #454545;
+        }
+        #tablaPrecios{
+            font-size: 12px !important;
+            font-family : Arial !important;
+            color: #454545 !important;
+        }
+        #tablaPrecios div{
+            font-size: 12px !important;
+            font-family : Arial;
+            color: #454545;
+        }
+        #tablaPrecios div table tr td,
+        #tablaPrecios div table tr th{
+            font-size: 12px !important;
+            font-family : Arial !important;
+        }
+        .titlePruebaCovid{
+            padding: 20px 40px;
+            background: #949494;
+        }
+        .titlePruebaCovid div h1{
+            font-size: 14px;
+            margin: 3px;
+            color: #fff;
+            font-family : Arial;
+        }
+        .titlePruebaCovid div p{
+            font-size: 10px;
+            margin: 0;
+            color: #fff;
+            font-weight: none;
+            font-family : Arial;
+        }
+        #tableCovid{
+            padding: 0 40px 30px 40px;
+        }
+        .contentCovid{
+            font-family : Arial;
+            padding: 10px;
+        }
+        .contentCovid h5{
+            font-size: 10px;
+            margin: 0px;
+            font-family : Arial;
+        }
+        .contentCovid h4{
+            font-size: 12px;
+            font-weight: bold;
+            margin: 3px;
+            font-family : Arial;
+        }
+        .contentCovid p{
+            font-size: 9px;
+            margin: 3px;
+            font-family : Arial;
+        }
+        #templateFooter{
+            background: #e4e4e4;
+            padding: 10px;
+        }
+        #templateFooter h3{
+            font-size: 15px;
+            margin: 3px;
+            font-family : Arial;
+        }
+        #templateFooter h5{
+            font-size: 10px;
+            margin: 3px 0;
+            font-family : Arial;
+        }
+        #templateFooter h5 a{
+            text-decoration: none;
+            font-family : Arial;
+        }
+        #templateFooter p{
+            font-size: 10px;
+            margin: 3px 0;
+            font-family : Arial;
+        }
+        .derechosAutor h6{
+            font-size: 8px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" class="font_family">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" class="c_scale">
+            
+            <tr>
+                <td align="center" valign="top" style="padding-top:20px; padding-bottom: 20px;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="550" id="templateContainer">
+                        <tr>
+                            <td style="padding:20px 40px 0 40px;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="550">
+                                    <tr>
+                                        <td>
+                                            <img src="https://www.mevoydeviaje.com/Content/email/nop-mail/logo-mvdv-by-ct.jpg" style="max-width:150px; width: 150px;" id="headerImage campaign-icon" mc:label="header_image"/>
+                                        </td>
+                                        <td style="width: 100px;"></td>
+                                        <td align="right" style="padding:10px;">
+                                            <a href="https://www.mevoydeviaje.com/vuelos-internacionales" class="text_dec_none font_13 font_family c_scale_10" style="color: #767197;">Vuelos Baratos</a>
+                                        </td>
+                                        <td align="right" style="padding:10px;">
+                                            <a href="https://www.mevoydeviaje.com/promociones-paquetes" class="text_dec_none font_13 font_family c_scale_10" style="color: #767197;">Promociones</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top" style="padding:20px;">
+                                <!-- // Plantilla Header \\ -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="550" id="templateHeader">
+                                    <tr>
+                                        <td class="headerContent">
+                                            <img src="https://www.mevoydeviaje.com/Content/email/nop-mail/banner-email-compra-exitosa.png" style="max-width:550px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- // Fin Plantilla Header \\ -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <!-- Cuerpo de la plantilla -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="550" id="templateBody">
+                                    <tr>
+                                        <td valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr><td align="center" valign="top" class="bodyContent">
+                                                    <div>
+                                                        <h2 class="font_title">Hola %Order.CustomerFullName%</h2>
+                                                        <p class="font_sub_title c_scale_10">Ha completado su pedido.</p>
+                                                    </div>
+
+                                                </td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="bottom" align="center" id="titleItinerario" class="padding_t_30">
+                                            <h2 class="font_title">El código de tu pedido</h2>
+                                            <p class="font_sub_title">%Order.OrderNumber%</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="padding_t_30">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="infoItinerario" style="background:#f3f5fa;">
+                                    <tr>
+                                        <td valign="center" align="left" class="padding_b">
+                                            <div>
+                                                <h2 class="font_title">Información de tu Compra</h2>
+                                                <p class="font_13">%Order.CustomValues%</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="center"><div class="line_h"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="center" align="left" class="padding_t padding_b">
+                                            <div>
+                                                <h2 class="font_title">Contacto</h2>
+                                                <div>
+                                                    <p class="font_13">Número de Pedido: %Order.OrderNumber%</p>
+                                                    <p class="font_13">Correo electrónico: %Customer.Email%</p>
+                                                    <p class="font_13">Teléfono: %Order.BillingPhoneNumber%</p>
+                                                    <p class="font_13">Whatsap: %Order.BillingAddress2%</p>
+                                                    <p class="font_13">Fecha del pedido: %Order.CreatedOn%</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="center"><div class="line_h"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="550" class="padding_t">
+                                                <tr>
+                                                    <td valign="center" id="tablaPrecios">
+                                                        <h2 class="font_title">Resumen de Pago</h2>
+                                                        <div>%if(%Order.PaymentMethod% != "Canje de Puntos") %Order.Product(s)% endif%</div>
+                                                    </td>
+
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center" valign="center" class="padding_t">
+                                <table border="0" cellpadding="0" cellspacing="8" width="550" class="padding_t">
+                                    %if(%Order.PaymentMethod% == "Niubiz")<tr><td><img src="https://www.mevoydeviaje.com/Content/email/nop-mail/img-alert-important.png" style="max-width:550px;" mc:label="image" mc:edit="tiwc300_image00" /></td></tr>endif%
+                                    <tr>
+                                        <td class="padding_t">
+                                            <img src="https://www.mevoydeviaje.com/Content/email/nop-mail/img-alert-internacional.png" style="max-width:550px;" mc:label="image" mc:edit="tiwc300_image00" />
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table border="0" cellpading="0" cellpading="0" width="550" class="padding_t padding_b">
+                                    <tr>
+                                        <td align="center">
+                                            <h2>¿Tienes alguna consulta o necesitas ayuda?</h2>
+                                            <div class="padding_t">
+                                                <a href="tel:016169080" onclick="return (navigator.userAgent.match(/Android | iPhone | movile /i)) != null;"><img src="https://www.mevoydeviaje.com/Content/email/nop-mail/btn-callcenter.png" alt="" style="max-width:130px;"></a>
+                                                <a href="https://wa.me/5116169080"><img src="https://www.mevoydeviaje.com/Content/email/nop-mail/btn-whatsapp.png" alt="" style="max-width:130px;"></a>
+                                                <a href="https://www.mevoydeviaje.com/ayuda"><img src="https://www.mevoydeviaje.com/Content/email/nop-mail/btn-ayuda.png" alt="" style="max-width:130px;"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr valign="center" align="center">
+                            <td>
+                                <p class="font_14">Si eres un usuario nuevo u olvidaste tu contraseña, ingresa <strong><a href="https://www.mevoydeviaje.com/customer/PasswordRecovery">aqu&iacute</a></strong> para recuperar tu contraseña.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table border="0" cellpading="0" cellpading="0" width="550" class="padding_t padding_b">
+                                    <tr>
+                                        <td align="center">
+                                            <h2>Destinos que te puedan interesar</h2>
+                                            <div class="padding_t">
+                                                <a href="https://www.mevoydeviaje.com/promociones-paquetes"><img src="https://www.mevoydeviaje.com/Content/email/img-plantillas-email/display-email-promociones.png" alt="" style="max-width:550px;"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <table width="100%">
+                                    <tr>
+                                        <td align="center" style="padding: 20px; padding-bottom: 20px; margin: 0;">
+                                            <p style="font-size: 12px; margin: 0;">también nos puedes seguir en nuestras redes sociales.</p>
+                                            <table>
+                                                <tr>
+                                                    <td><img src="https://www.mevoydeviaje.com/Content/email/img-plantillas-email/ico-facebook.png" alt=""></td>
+                                                    <td><img src="https://www.mevoydeviaje.com/Content/email/img-plantillas-email/ico-instagram.png" alt=""></td>
+                                                    <td><img src="https://www.mevoydeviaje.com/Content/email/img-plantillas-email/ico-tiktok.png" alt=""></td>
+                                                    <td><img src="https://www.mevoydeviaje.com/Content/email/img-plantillas-email/ico-linkedIn.png" alt=""></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top" class="derechosAutor">
+                                <h6>mevoydeviaje.com   |   Todos los derechos reservados.</h6>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+</body>
+</html>
+
